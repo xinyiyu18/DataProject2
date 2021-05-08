@@ -1,13 +1,15 @@
 # DataProject2
 
 ## Process Description & Deployment Strategy
-First, I created an MongoDB to store the data. 
+All codes can be found in app.py. First, I created an MongoDB to store the data. 
 Then, I used Chalice to create a project that run the Lambda function every minute for one hour. 
 The Lambda function makes requests to the API and writes the response Json to MongoDB. 
 The Lambda function will stop putting the data into MongoDB once the time is greater than "2021-05-08 03:05:01" utc time, which will be exactly 1 hour from the current running time;
 
-## Code Explanation
-Line 1- 6: The code first import packages into Python for later use.
+## Code Explanation 
+
+### app.py
+Line 1-6: The code first import packages into Python for later use.
  
 Line 10-12: Then it connect to MongoDB. 
 
@@ -17,6 +19,14 @@ Line 16-23: Create a Lambda function that runs periodically.
 If the time is greater than 1 hour, it will stop putting the data into MongoDB;
 Otherwise, it will update the data in MongoDB every minute. 
 
+### ana.py
+Line 1- 4: The code first import packages into Python for later use.
+
+Line 7-10: Then it connects to MongoDB. 
+
+Line 12-19: Append new values of factor and PI for each minute to separate lists. 
+
+Line 21-29: Create side by side time series plots for data analysis purpose.
 
 ## Data Patterns & Explanation
 The values of factor and PI seem to have positive relationship. 
