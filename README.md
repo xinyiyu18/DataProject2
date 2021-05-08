@@ -40,3 +40,6 @@ Once the value of factor reaches at a value of 1, the value of PI increase to a 
 
 ## Screenshot of the Database Table
 ![Mongodb Data Screenshot](https://github.com/xinyiyu18/DataProject2/blob/main/DataProject2.png?raw=true)
+
+## Data Analysis Plot
+![Mongodb Data Screenshot](https://github.com/xinyiyu18/DataProject2/blob/main/TimeSeriesPlot.png?raw=true)
