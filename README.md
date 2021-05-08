@@ -28,4 +28,5 @@ The values of factor increase gradually from time 0 to 32, and then decrease sig
 One possible explanation is that once the values of factor and PI are correlated. 
 Once the value of factor reaches at a value of 1, the value of PI increase to a value of 4.
 
+## Screenshot of the Database Table
 ![Mongodb Data Screenshot](https://github.com/xinyiyu18/DataProject2/blob/main/DataProject2.png?raw=true)
