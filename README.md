@@ -14,7 +14,7 @@ Line 10-12: Then it connect to MongoDB.
 Line 14: Register as a Chalice project. 
 
 Line 16-23: Create a Lambda function that runs periodically.
-If the time is greater than 1 hour, it will stop puting the data into MongoDB;
+If the time is greater than 1 hour, it will stop putting the data into MongoDB;
 Otherwise, it will update the data in MongoDB every minute. 
 
 
@@ -27,3 +27,5 @@ The values of PI changes more dramatically around 31 to 32 minutes (when factor 
 The values of factor increase gradually from time 0 to 32, and then decrease significantly afterward at the 32 minutes, and then increase gradually to 20000.   
 One possible explanation is that once the values of factor and PI are correlated. 
 Once the value of factor reaches at a value of 1, the value of PI increase to a value of 4.
+
+![Mongodb Data Screenshot](https://github.com/xinyiyu18/DataProject2/blob/main/DataProject2.png?raw=true)
